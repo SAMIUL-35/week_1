@@ -14,7 +14,7 @@ int main() {
         cin >> b[i];
     }
 vector<int> c;
-    int l = 0, r = 0, ans = 0;
+    int l = 0, r = 0;
 
     while (r < m || l < n) {
         if (b[r] > a[l]  ) {
